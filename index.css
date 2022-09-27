@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.first{
+    text-align: center;
+    background-color: orangered;
+    height: 40px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background-color: blue;
+}
+.logo{
+    width: 30%;
+}
+.contest{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.picture{
+    width: 100%;
+    /* margin-top: ;   */
+}
+.list{
+    text-align: center;
+    margin-top: 10%;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    place-items: center;
+    background-color: pink;
+}
+.pictures img{
+    max-width: 60% ;
+}
+.A1{
+    position: relative;
+
+}
+.A1 h2{
+    position: absolute;
+    top: 50%;
+}
