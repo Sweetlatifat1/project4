@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     width: 70%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .logo{
     width: 30%;
@@ -30,17 +30,18 @@
 }
 .list{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .pictures{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 15px;
     place-items: center;
-    background-color: pink;
+    /* background-color: pink; */
 }
 .pictures img{
-    max-width: 60% ;
+    max-width: 90% ;
+    
 }
 .A1{
     position: relative;
@@ -49,4 +50,65 @@
 .A1 h2{
     position: absolute;
     top: 50%;
+    /* color: white; */
 }
+.details{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.student{
+    width: 40%;
+}
+.special{
+   margin-top: 10%;
+   width: 40%; 
+}
+.uniform{
+    margin-top: 5%;
+}
+.take{
+    color:white;
+    background-color: orangered;
+    margin-top: 5%;
+    width: 25%;
+}
+.collect{
+    text-align: center;
+    margin-top: 10%;
+    color: grey;
+}
+.Global{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    margin-top:8%;
+}
+.all{
+    text-align: center;
+    margin-top: 5%;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6%;
+    background-color: ghostwhite
+}
+.about{
+    margin-top: 9%;
+    justify-content: space-around;
+}
+.us{
+    margin-top: 3%;
+}
+.link a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+
